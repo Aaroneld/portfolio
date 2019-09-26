@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url("./images/prism.png");
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
 }
 
 .App-logo {
@@ -19,4 +23,39 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.intro-div {
+
+  margin: 3% 5%;
+  padding: 4%;
+  background: black;
+  color: white;
+  box-shadow: 0 4px 8px 0
+   rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro-div img {
+
+  max-width: 50vw;
+}
+
+.skills-div {
+
+  background: grey;
+  margin: 0 5% 3% 5%;
+  padding: 4%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolio-div {
+
+  background: black;
+  color: white;
+  margin: 0 5% 3% 5%;
+  padding: 4%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+   0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
